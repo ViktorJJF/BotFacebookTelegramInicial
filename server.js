@@ -18,7 +18,10 @@ app.use(
   })
 );
 
+//chatbot Facebook
 app.use("/messenger", require("./Facebook/facebookBot"));
+//Chatbot Telegram (Usa manejador de eventos y no webhook)
+require("./Telegram/telegramBot");
 
 app.get("/", (req, res) => {
   return res.send("Chatbot Funcionando 🤖🤖🤖");

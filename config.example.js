@@ -8,4 +8,6 @@ module.exports = {
   DF_LANGUAGE_CODE: "es",
   GOOGLE_CLIENT_EMAIL: "123",
   GOOGLE_PRIVATE_KEY: "123",
+  //TELEGRAM
+  TELEGRAMTOKEN: "123",
 };

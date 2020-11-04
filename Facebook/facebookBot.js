@@ -7,7 +7,7 @@ const axios = require("axios");
 //files
 const config = require("../config");
 const dialogflow = require("../dialogflow");
-const { structProtoToJson } = require("./helpers/structFunctions");
+const { structProtoToJson } = require("../helpers/structFunctions");
 
 // Messenger API parameters
 if (!config.FB_PAGE_TOKEN) {
